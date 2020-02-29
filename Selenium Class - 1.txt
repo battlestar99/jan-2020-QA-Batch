@@ -185,6 +185,84 @@ hangout group - gmail address 50 students
 
 anik@agile1tech.com 
 
+datatype 
+variable
+value 
+
+5 
+
+x+y
+x/y
+1. eclipse - IDE - integrated development environment 
+
+programming editor - word processor - ms word 
+python, c, java, javascript 
+
+;
+varablename
+"variablename"
+
+2. question 4 and 5 
+
+3% of 50
+
+50*(3/100)
+
+double interest = 50*(3/100);
+
+
+3. 
+
+
+
+
+
+
+
+
+Class will start 11:15 AM 
+
+anik@agile1tech.com 
+
+data 
+operation 
+conditional statment 
+
+3% interest rate - 
+get the credit score and depending on the credit score
+setup the interest rate 
+
+750> 2 
+700 - 749 - 2.5 
+650-699 - 4 
+600- 649 - 5
+<600 - 10 
+
+if/else/else if
+
+x=5
+y=10
+assigning 5 to the variable x 
+
+x==5 true
+
+(y==45) - false
+
+if the value of x is equal to 5
+
+&& 
+
+||
+
+x= 102;
+
+if(x>2 && x<100 && x ==12){
+
+}
+
+if(x>2 || x<100 || x ==12){
+
+}
 
 
 
@@ -194,19 +272,7 @@ anik@agile1tech.com
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+anik@agile1tech.com 
 
 
  

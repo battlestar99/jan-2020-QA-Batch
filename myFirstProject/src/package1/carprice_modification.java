@@ -2,20 +2,18 @@ package package1;
 
 import java.util.Scanner;
 
-public class carPrice {
+public class carprice_modification {
 
 	public static void main(String[] args) {
 		
-// build a system that can calculate car price 
-// car price consists of car value, admin fees, interest , taxes 
-// find the monthly payment of the car 
-		
-		int carprice ; 
+		int carprice; 
 		int adminfee; 
 		int interest; 
 		int tax ;
+		int taxprice; 
 		String name; 
-		
+		int interestRate;
+		int Price_afterInterst; 
 		
 		carprice=2000;
 		
@@ -25,14 +23,20 @@ public class carPrice {
 		carprice =sc.nextInt(); 
 		System.out.println("Enter admin  fee");
 		adminfee = sc.nextInt(); 
-		System.out.println("Enter interest");
-		interest = sc.nextInt();  
+		
+		System.out.println("Enter Interest Rate");
+		interestRate = sc.nextInt();
 		System.out.println("Enter tax");
-		tax = sc.nextInt(); 
+		tax = sc.nextInt();
+		
+		interest = carprice*(interestRate/100); 
+		taxprice = carprice*(tax/100);  
+		
+		
 		
 		int totalprice; 
 		
-		totalprice = carprice + adminfee + interest+ tax; 
+		totalprice = carprice + adminfee + interest+ taxprice; 
 		System.out.println("Total price of the car");
 		System.out.println(totalprice);
 		
@@ -42,9 +46,6 @@ public class carPrice {
 		
 		System.out.println("Your monthly payment is ...");
 		System.out.println(monthlypayment);
-		
-		
-		
 		
 		
 
