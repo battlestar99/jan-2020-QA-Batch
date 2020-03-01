@@ -24,6 +24,9 @@ public class carprice_modification {
 		System.out.println("Enter admin  fee");
 		adminfee = sc.nextInt(); 
 		
+		Scanner x = new Scanner(System.in);
+		
+		
 		System.out.println("Enter Interest Rate");
 		interestRate = sc.nextInt();
 		System.out.println("Enter tax");
@@ -35,6 +38,10 @@ public class carprice_modification {
 		
 		
 		int totalprice; 
+		
+		
+		
+		
 		
 		totalprice = carprice + adminfee + interest+ taxprice; 
 		System.out.println("Total price of the car");

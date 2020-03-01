@@ -1,0 +1,347 @@
+Class - 1 
+
+why automation testing ? 
+
+
+application architecture? 
+Good Morning
+
+What is computer programming? 
+
+set of instructions - language 
+open folder
+find a file
+open the file 
+read the file 
+
+
+language - Java 
+
+machine language - 01010101000111
+
+
+high level programming language - java, python, C#, c, c++, javascript
+
+setting up environment 
+
+1. java compiler - jdk 
+java core library + jre 
+java runtime environment 
+
+jre - is required to run any java software or code in a machine 
+
+java core library - required to write any code in java - source code
+
+2. .java - command 
+
+javac test.java 
+
+intelligent editor - IDE - integrated development enviroment 
+
+Eclipse IDE for java developers 
+
+int x = 78; 
+
+x = 78;
+workspace - 
+
+11:35
+
+
+
+
+
+
+Starting to write Code - 
+
+1. data - way to store data 
+2. logic - set of instructions to solve a problem 
+
+class - is the basic unit of java 
+
+I have to create a class - 
+
+package - a java folder 
+
+we can not rename a class
+class - 
+.java 
+.class
+
+Runnable class - the class you can run 
+main method in the class
+
+non-runnable class - class you cant run 
+
+
+public class nameoftheclass { 
+    
+     public static void main (String args[]){
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+java stores data - 
+
+x = 15
+x=16
+y=bob
+variable
+
+datatype 
+
+number, name, 
+
+whole number 
+
+integer 
+
+int x = 76;
+
+int y = 10.54;
+
+double z = 12.12;
+
+String name = "df hjjhd";
+
+boolean test = true/false; 
+
+char c = 'a';
+
+
+
+
+
+
+datatype variable = value of the variable; 
+
+int x = 12;
+
+String y = "dfdjfl";
+
+double z = 65.87; 
+
+boolean test = true/false; 
+
+2 steps process 
+declaring the varible
+int x ; 
+
+ the variable - 
+
+variable x y z a b c 
+
+int num1
+
+int x ; 
+
+declaring the variable 
+int num1; 
+
+num1 is an integer type of variable 
+
+num1=12; 
+
+String name ; declaring 
+
+name = "Michael"; initializing
+
+String name = "Michael";
+
+int amountOfMoney; 
+int AmountOfMoney; 
+amountOfMoney = 1200; 
+
+case - sensitive language 
+
+car price - 
+
+car price + admin fee + interest rate + tax = total car price
+
+60 
+
+total car price / 60 
+
+hangout group - gmail address 50 students 
+
+anik@agile1tech.com 
+
+datatype 
+variable
+value 
+
+5 
+
+x+y
+x/y
+1. eclipse - IDE - integrated development environment 
+
+programming editor - word processor - ms word 
+python, c, java, javascript 
+
+;
+varablename
+"variablename"
+
+2. question 4 and 5 
+
+3% of 50
+
+50*(3/100)
+
+double interest = 50*(3/100);
+
+
+3. 
+
+
+
+
+
+
+
+
+Class will start 11:15 AM 
+
+anik@agile1tech.com 
+
+data 
+operation 
+conditional statment 
+
+3% interest rate - 
+get the credit score and depending on the credit score
+setup the interest rate 
+
+750> 2 
+700 - 749 - 2.5 
+650-699 - 4 
+600- 649 - 5
+<600 - 10 
+
+if/else/else if
+
+x=5
+y=10
+assigning 5 to the variable x 
+
+x==5 true
+
+(y==45) - false
+
+if the value of x is equal to 5
+
+&& 
+
+||
+
+x= 102;
+
+if(x>2 && x<100 && x ==12){
+
+}
+
+if(x>2 || x<100 || x ==12){
+
+}
+
+
+
+
+
+
+
+
+
+anik@agile1tech.com 
+
+
+ 
+
+class - 4 
+
+Procedural programming - main class 
+
+OOP - object oriented programming 
+
+main method - java setup 
+datatype , operations, conditional statement if/else/else if, 
+looping - for, while 
+
+functions 
+
+1. organizing our code
+2. reusable 
+3. library 
+
+1. how to create a function - input, output, system
+parameters, return type, whatever we are doing in the function
+
+2. how to use a function 
+create an object of the class from where the function is coming
+
+
+3. how to use a function that you didn't create 
+classname objectname = new classname(); 
+
+
+runnable class - main method 
+
+non-runnable class - to create reusable functions - OOP
+
+java core library - 
+
+3rd party library - 
+
+
+
+wednesday 
+
+thursday and friday - 9-5
+
+sunday - 1 hour 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
