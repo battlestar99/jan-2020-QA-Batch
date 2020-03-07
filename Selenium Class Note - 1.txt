@@ -33,6 +33,53 @@ Setting up selenium -
 
 2. browser driver - chrome, mozila, safari , IE
 
+functions - how to use functions 
+how to create and how to use 
+what to learn : 
+2-3 
+1. Java - OOP 
+
+2. Selenium Libraries -  
+
+actual value - test scripts 
+expected value - requirments 
+
+actual value and expected values are same - test case pass - test
+if not same - test case fail - requirements 
+
+
+
+
+What we do in automated test scripts: 3 categories 
+
+1. interacting with browser - webdriver 
+
+2. finding web elements - loacting techniques 
+text box - type something you need value - type
+button - click
+check box - click
+radio button - click
+links - click
+drop down menu - select
+
+table
+javascript pop up
+windows 
+
+3. interacting with the web elements 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
