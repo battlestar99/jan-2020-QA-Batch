@@ -10,9 +10,11 @@ public class functionClass {
 	// inputs - parameters, argument
 	
 	// constructor gets executed whenever we create an object of the class
+	// properties of the class or global variable 
 	
+	int x ; 
 	
-	
+
 	
 	
 	public int addTwoNumbers(int x, int y) {

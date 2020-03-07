@@ -1,0 +1,71 @@
+Java - Functions - 
+
+runnable class - as java application - TestNG, cucumber 
+public static void main (String [] args]{}
+
+non-runnable class - properties and functions 
+
+OOP - class is a design or prototype 
+
+object does all the things - 2 doors, 5 windows, 5 rooms 
+
+
+Selenium Setup - Role of selenium 
+
+Selenium - Library - java library 
+
+functions already created that we are going to use - 
+
+packages - non runnable class - functions and properties 
+
+5 packages - 100 non runnable class - 1000 functions and properties 
+
+jar file - selenium java 
+selenium server standalone - selenium webdriver 
+
+selenium - interact with a browser - web based application 
+
+90 percent of the application - 
+
+Setting up selenium - 
+
+1. setting up the libraries - jar files - maven repository 
+
+2. browser driver - chrome, mozila, safari , IE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What we do in testing - 
+
