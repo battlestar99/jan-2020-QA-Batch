@@ -140,6 +140,11 @@ and also read whatever is written in the sign up
 
 https://www.amazon.com/
 
+
+//*[@id='sign-up-first-name']
+
+
+
 find three links to go to new web page read the title and web pages 
 and print it in the console 
 
@@ -174,6 +179,15 @@ u85qd7
 
 568 979 725
 2twj31
+
+
+1566586423 
+passsword n7t3z1 
+
+1 562 177 294
+1he77n
+
+I will be back 01:05 
 
 
 
