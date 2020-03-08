@@ -8,6 +8,7 @@ public class mainRun1 {
 	public static void main(String[] args) {
 		
 		
+		
 		functionClass fc = new functionClass(); 
 		
 		functionClass fc1= new functionClass();

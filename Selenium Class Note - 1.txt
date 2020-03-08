@@ -70,13 +70,81 @@ windows
 
 
 
+wait - 
+
+implicit wait - 10 seconds - 
 
 
 
 
 
 
+List of functions we are familiar 
 
+1. opening up a browser 
+webdriver driver = new chromedriver
+
+2. go to an url 
+
+driver.get(url)
+driver.navigate.to(url) 
+
+3. implicit wait - to make sure all web elements are loaded in the page
+
+4. delete all the cookies 
+driver.manage.deleteallcookies 
+
+5. find the web element and store it in a webelement variable
+
+weblemenet x = driver.findelement(by(xpath) 
+by name
+by id
+by xpath 
+
+text box- check box - radio button - drop down - links - button 
+
+6. 
+element.sendkeys- typing something in a webelement 
+element.click - to click on some webelemnt
+element.gettext - to read the text from the webelement 
+element.isdisplayed - to check if the element is displayed in the page
+element.isenabled - check if the element is enabled
+element.isselected - check if the lement is selected 
+
+7. 
+
+driver.back
+driver.forward
+driver.refreash 
+
+8. select dd = new select ( element) ; 
+
+dd.seleectbyindex
+dd.selectbyvisiabletext 
+
+
+
+Class work - 
+
+1. making sure your environment is setup 
+java + selenium 
+download the libraries from github 
+2. navigate to the url 
+
+https://identity.flickr.com/sign-up
+
+and fill up the form, check if the sign up button is enabled 
+and also read whatever is written in the sign up 
+
+3. navigate to url 
+
+https://www.amazon.com/
+
+find three links to go to new web page read the title and web pages 
+and print it in the console 
+
+
+Class will start 10:30 AM 
 
 
 

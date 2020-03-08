@@ -14,8 +14,6 @@ public class testclass {
 		
 		//WebDriver driver1 = new ChromeDriver(); 
 		
-		
-		
 		  Thread.sleep(2000);
 		 
 		 driver.get("https://www.amazon.com/");
@@ -27,7 +25,7 @@ public class testclass {
 		 WebElement deals = driver.findElement(By.linkText("Today's Deals")); 
 		 
 		String dealtext =  deals.getText();
-		 deals.click();
+		deals.click();
 		
 		 
 		 String xy = driver.getTitle();
