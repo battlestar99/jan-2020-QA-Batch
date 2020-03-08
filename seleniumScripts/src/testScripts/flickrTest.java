@@ -22,9 +22,18 @@ public class flickrTest {
 			
 			WebElement firstname = driver.findElement(By.id("sign-up-first-name"));
 			WebElement lastname = driver.findElement(By.id("sign-up-last-name"));
-		
-           firstname.sendKeys("Michael");
+			WebElement signup = driver.findElement(By.xpath("//*[@id=\"sign-up-form\"]/button"));
+           
+			
+			
+			firstname.sendKeys("Michael");
            lastname.sendKeys("Jordan");
+           
+           String x = signup.getText();
+           
+           System.out.println(x);
+           
+           
 	}
 
 }
