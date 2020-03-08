@@ -153,6 +153,30 @@ Class will start 10:30 AM
 
 
 
+1. download the two jar files from github
+
+2. download the chromedriver.exe and put it anywhere in your computer
+
+3. create a java project with lib folder and put the tow jar files
+
+4. add them to build path 
+
+662598123
+u85qd7
+
+1 566 586 423 
+9s18jb
+
+
+1570650680
+19x4yg
+
+
+568 979 725
+2twj31
+
+
+
 
 
 
