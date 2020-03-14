@@ -16,11 +16,13 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\W
 		 
 		 driver.get("http://newtours.demoaut.com/mercuryregister.php");
 
-		 driver.findElement(By.name("firstName")).sendKeys("Mike");
+		 pageNewTours pg=new pageNewTours(driver); 
 		 
-		 driver.findElement(By.name("lastName")).sendKeys("John");
+		 pg.getFirstName().sendKeys("Michael");
+		 pg.getlastName().sendKeys("Scott");
+		 pg.getphone().sendKeys("698798");
 		 
-		 driver.findElement(By.name("phone")).sendKeys("6576652");
+		 
 		 
 		 Thread.sleep(2000);
 		 

@@ -199,11 +199,213 @@ I will be back 01:05
 
 
 
+Good Morning 
+Class will start 10:15 AM
+
+Function - 
+
+1. how to create a function
+2. how to use a function 
+
+main method - runnable class - test script 
+
+public static void main(String args[]){
+
+}
 
 
+Function - input multiple - system - ouput 1 
 
  
 
+public outputdatatype functionname(){
+
+// write your function here
+
+return data; 
+
+
+}
+
+datatype
+variable
+value 
+
+int x; 
+x=12;
+boolean y; 
+y=false;
+double z;
+z=12.12; 
+
+int
+String
+boolean 
+
+input - two numbers , output - summation of two numbers 
+
+sendkeys("djfljd")
+click()
+setproperty("webdriver","locatoin of the driver")
+
+math
+public int addtwonumbers(int x, int y){
+
+int sum; 
+sum=x+y; 
+return sum; 
+
+}
+
+runnable class - main method
+
+math m = new math();
+int a = m.addtwonumbers(12,100);
+int b = m.addtwonumbers(100,200);
+
+rent
+public static int totalrent(int baserent, int parking, int utilities){
+
+int totalrent; 
+totalrent=baserent+parking+utilities; 
+return totalrent; 
+
+}
+
+runnable class - main method
+
+rent.totalrent(65,45,123);
+rent r = new rent(); 
+int x = r.totalrent(1200,100,200);
+int y = m.addtwonumbers(100,200);
+
+
+public void sendKeys(String x){
+
+// type something
+
+}
+
+public void click(){
+
+// click on a webelement
+
+}
+
+public boolean isdisplayed(){
+
+// 
+
+return true/false; 
+
+
+}
+
+8 ways - 8 locating tecniques 
+
+fundamental locating tecniques 
+name 
+id
+we can create xpath and css selector
+xpath
+css selector 
+
+linktext - link
+partiallinktext - link <a> href : 
+
+
+tagname - mutiple web elements
+classname - multiple 
+
+input
+button
+a
+select
+
+10 webelement 
+
+
+
+start again 11:15
+
+question: 
+
+role - java is the programming language 
+selenium - is the library 
+
+if I find weblements in google chrome browser 
+
+I can run my code in any other browsers 
+
+HTML code for the firstname text box 
+
+<input 
+type="text" id="usernamereg-firstName" class="ureg-fname " 
+autocomplete="given-name" name="firstName" placeholder="First&nbsp;name" 
+aria-label="First&nbsp;name" value="" 
+maxlength="32" aria-required="true" aria-invalid="false"
+ objectname = "1">
+
+
+<input type="text" name="yid" id="usernamereg-yid" autocomplete="username" 
+placeholder="Email&nbsp;address" aria-label="Email&nbsp;address" value="" 
+maxlength="32" aria-required="true" objectname = "2">
+
+basic rule: 
+customize xpath 
+attribute and value - relative xpath 
+//tagname[@attribute="value"]
+//input [@objectname="1"]
+//input[@id="usernamereg-firstName"]
+//input[@name="firstName"]
+//input[@aria-invalid="false"]
+
+//*[@id="usernamereg-firstName"]
+
+absolute xpath 
+
+/html/body/div[2]/div[2]/div[1]/div/form/fieldset/div/div[1]/input
+HTML-CSS structure of the code 
+
+// - reletive xpath 
+ / - absolute xpath  
+
+
+css selector 
+
+tagname[attribute=value]
+input[name="firstName"]
+whatever locating tecnique gives you the unique value 
+
+
+
+1. // and / 
+2. relative xpath and absolute 
+3. no elements has unique id and name - unique - xpath
+4. no elements has anything unique - developer , absolute xpath
+
+/html/body/div[2]/div[2]/div[1]/div/form/div[2]/input[1]
+
+
+Framework - selenium 
+
+automation testing framework: 
+
+how to organize code in an efficient and maintanable way 
+
+1. seperate test data from test script - data driven framework
+2. seperate web element /object test script - object driven framework
+3. seperating non-test data from test script - keyword driven framework
+4. hybrid framework 
+
+
+page object model class - where we find all webelements 
+it is not a test script - 
+it is a non-runnable class - 
+10 weblements 5 times = 50 times 
+
+locating tecniques
+page object model 
 
 
 
@@ -220,5 +422,6 @@ I will be back 01:05
 
 
 
-What we do in testing - 
+
+
 
