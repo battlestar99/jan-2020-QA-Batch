@@ -1,0 +1,173 @@
+Good Morning 
+
+Class will start 10:15 AM 
+
+Evening Class - Monday and Wednesday 
+7PM - 930PM 
+
+SQL Class - 
+
+page object model - object driven framework 
+why: 
+
+1. organize code - 
+2. increase the usuability of web elements 
+3. fix the location change easily 
+
+seperating web objects or web elements from the test script 
+
+Test Script - runnable - execute different test steps 
+
+50 requirements - validate 
+200 Manual Test cases - 
+
+5 test steps
+
+1. opening the browser
+2. going to the url 
+3. entering first name in first name text box
+4. entering last name in the last name text box
+5. clicking the sign up button 
+
+Test script - automation version of manual test case - automation 
+test case 
+100
+
+Testing Phase 
+smoke
+sanity - ignore
+regression
+UAT 
+
+page object model - non runnable class with some functions 
+
+why
+how 
+for each webpage - you should create 1 page object model class
+
+10 webpage 
+
+10 page object model class
+
+public class signUpPage 
+
+public class HomePage 
+Web-based application testing - 
+
+Running the test - main method of java 
+
+1. we can not control the flow - 
+2. we can not create a pass/fail scenrio 
+3. data driven testing
+4. test suite 
+
+
+
+TestNG 
+
+setup 
+1. download TestNG library - jar file, add it to library and add
+to build path 
+2. get the testNG plugin link - use help - install new software 
+and put the link the installation box - do next next 
+
+https://dl.bintray.com/testng-team/testng-eclipse-release/
+
+TestNG Annoations: 
+Every annotations come with a function - 
+
+@BeforeTest
+@AfterTest
+@Test
+@BeforeMethod
+@AfterMethod 
+
+Sequence - we have nothing to do here - its already predefined
+from the library 
+
+
+@BeforeTest
+the prerequirments of the tests - we can put in before test 
+opening up a browser- going to an url 
+@BeforeMethod
+@Test 
+the test steps 
+@AfteMethod 
+@AfterTest 
+close the browser 
+
+
+
+
+
+@BeforeTest
+@BeforeMethod
+@Test1
+@AfterMethod
+@BeforeMethod
+@Test2
+@AfterMethod
+@AfterTest
+
+Assertions - 
+
+expected output vs actual output 
+
+expected = actual - pass
+expected != actual - fail 
+
+expected output = from the requirement 
+
+actual output = after the testing 
+
+
+Assert.asserteauls("test","test") - pass the test 
+
+asserttrue(true) - pass the test
+assertrue(false) - fail the test 
+
+
+assertfalse(false) - pass the test
+assertfalse(true) - fail the test 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

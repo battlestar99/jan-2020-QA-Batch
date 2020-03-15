@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12696" started-at="2020-03-15T17:37:29Z" finished-at="2020-03-15T17:37:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12696" started-at="2020-03-15T17:37:29Z" finished-at="2020-03-15T17:37:42Z">
+      <class name="com.app.Tests.newTourTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="beforeTest" is-config="true" duration-ms="7783" started-at="2020-03-15T13:37:29Z" finished-at="2020-03-15T13:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="beforemethod" is-config="true" duration-ms="333" started-at="2020-03-15T13:37:37Z" finished-at="2020-03-15T13:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="validateURL()[pri:1, instance:com.app.Tests.newTourTest@429bd883]" name="validateURL" duration-ms="13" started-at="2020-03-15T13:37:37Z" finished-at="2020-03-15T13:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateURL -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="beforemethod" is-config="true" duration-ms="277" started-at="2020-03-15T13:37:37Z" finished-at="2020-03-15T13:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="validateTitle()[pri:2, instance:com.app.Tests.newTourTest@429bd883]" name="validateTitle" duration-ms="8" started-at="2020-03-15T13:37:38Z" finished-at="2020-03-15T13:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="beforemethod" is-config="true" duration-ms="297" started-at="2020-03-15T13:37:38Z" finished-at="2020-03-15T13:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="elementDisplayed()[pri:3, instance:com.app.Tests.newTourTest@429bd883]" name="elementDisplayed" duration-ms="2187" started-at="2020-03-15T13:37:38Z" finished-at="2020-03-15T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementDisplayed -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="afterTest" is-config="true" duration-ms="1787" started-at="2020-03-15T13:37:40Z" finished-at="2020-03-15T13:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.app.Tests.newTourTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
