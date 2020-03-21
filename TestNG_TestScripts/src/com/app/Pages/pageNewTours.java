@@ -9,10 +9,10 @@ public class pageNewTours {
 	
 	WebDriver driver ; 
 	 
-	public pageNewTours(WebDriver x) {
+	public pageNewTours(WebDriver tdriver) {
 		
 		
-		driver=x;
+		driver=tdriver; 
 		
 		
 	}
@@ -37,12 +37,13 @@ public WebElement getlastName() {
 	
 public WebElement getphone() {
 	
-	WebElement phone =  driver.findElement(By.name("phone"));
+	WebElement phone =  driver.findElement(By.xpath("//input[@name='firstName']"));
 	
 	return phone; 
 }
 	
 	
+
 	
 	
 	

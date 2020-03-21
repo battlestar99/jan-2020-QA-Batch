@@ -362,6 +362,12 @@ attribute and value - relative xpath
 
 //*[@id="usernamereg-firstName"]
 
+
+//input[@name="firstName"]
+
+/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[2]/td[2]/input
+/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[2]/td[2]/input
+
 absolute xpath 
 
 /html/body/div[2]/div[2]/div[1]/div/form/fieldset/div/div[1]/input
@@ -408,7 +414,76 @@ locating tecniques
 page object model 
 
 
+1. what are the locating tecniques - 
+name
+id
+xpath - chrome browser, relative, absolute, customize 
+css selector 
 
+links 
+partiallinktext
+linktext 
+
+multiple webelements
+tagname
+classname
+
+you can always find weblements using chrome, doesnt matter
+which browser you are going to run your tests 
+
+2. if we don't have any unique id or name what can we do - 
+
+way 1 - we can use absolute xpath 
+way 2 - we have to check if there is any unique attribute 
+idNumber = 1
+
+3. nothing is unique in the page 
+ way 1- we can use absolute xpath 
+way 2 - we can talk with the developer 
+
+
+why - organize code, enhance usuability 
+how - non runnable classes with functions 
+role of constructor - is setting up a value for the driver in the page
+object model class so the test scripts and page object model class
+use the same driver 
+
+Test failure - fail
+code failure - fail
+
+Automated test scripts - 
+
+goal of writing automated test scripts or manaul test case - 
+
+1. validating the requirment 
+
+converting the manual test cases to automation test scripts
+create automation test scripts based on requirment directly 
+
+1 manual test case -  5 steps - 
+@Test - one test case - one test
+
+Test script 
+@Test - 3 tests 
+
+
+
+TestNG XML - Test Suite
+
+suite
+test
+classes 
+
+
+parameterized testing - data driven testing using testNG 
+
+data driven framework - seperate test data from test scripts
+object driven framework - seperating web elements from 
+test scripts 
+
+
+windows, mac, linux 
+UNIX 
 
 
 

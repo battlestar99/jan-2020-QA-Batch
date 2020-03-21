@@ -2,11 +2,13 @@ package com.app.Tests;
 
 import java.util.concurrent.TimeUnit;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -16,19 +18,19 @@ import com.app.Pages.pageNewTours;
 
 public class newTourTest {
 	
+	// declaring some object 
 	WebDriver driver; 
-	pageNewTours pn ; 
+	pageNewTours pn ;
+	int a; 
 	
 	@BeforeTest
 	public void beforeTest() throws InterruptedException {
 	
 		// opening the browser, go to url
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\WS-Jan2020\\programming libraries\\chromedriver.exe");
-		
-    
-        
-		driver = new ChromeDriver(); 
-	    pn=new pageNewTours(driver);
+        a=3;
+        driver = new ChromeDriver(); 
+        pn=new pageNewTours(driver);
 		
 		driver.manage().deleteAllCookies();
 		Thread.sleep(2000);
@@ -60,12 +62,16 @@ public class newTourTest {
 		String actualUrl = driver.getCurrentUrl();
 		Assert.assertEquals(actualUrl,"http://newtours.demoaut.com/mercuryregister.php");
 	}
+	
+	
 	@Test(priority=2)
 	public void validateTitle() {
 		
 		String actualTtitle = driver.getTitle(); 
 		System.out.println(actualTtitle);
 		Assert.assertEquals(actualTtitle, "Register: Mercury Tours");
+		Reporter.log("Verifying the actual string with expected value", true);
+
 		
 	}
 	

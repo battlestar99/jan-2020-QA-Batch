@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="com.app.Tests.newTourTest">
+      <class name="com.app.Tests.signOnTest">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="validateTitle"/>
+          <include name="validateSignOnNegative"/>
+          <include name="validateWebElementPresent"/>
         </methods>
-      </class> <!-- com.app.Tests.newTourTest -->
+      </class> <!-- com.app.Tests.signOnTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

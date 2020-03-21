@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression test">
+<test name="New Tours Regression test">
+
+<classes>
+
+<class name="com.app.Tests.signOnTest"></class>
+<class name="com.app.Tests.newTourTest"></class>
+<class name="com.app.Tests.basicTestNGTest"></class>
+
+</classes>
+
+
+</test>
+</suite>

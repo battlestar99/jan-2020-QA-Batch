@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test data for sign on test" parallel = "tests">
+
+<test name="Negative Testing dataset - 1">
+
+<parameter name="username" value="Michael"/>
+<parameter name="password" value="dhfjkasdsdf"/>
+<parameter name="expecteddata" value="test"/>
+<classes>
+<class name="com.app.Tests.signOnTestData"></class>
+</classes>
+</test>
+
+<test name="Negative Testing dataset - 2">
+
+<parameter name="username" value="John"/>
+<parameter name="password" value="dfadas"/>
+<parameter name="expecteddata" value="test"/>
+<classes>
+<class name="com.app.Tests.signOnTestData"></class>
+</classes>
+</test>
+
+<test name="Positive testing dataset - 1">
+
+<parameter name="username" value="Robi"/>
+<parameter name="password" value="dfasdfd"/>
+<parameter name="expecteddata" value="test"/>
+<classes>
+<class name="com.app.Tests.signOnTestData"></class>
+</classes>
+</test>
+
+
+
+</suite>

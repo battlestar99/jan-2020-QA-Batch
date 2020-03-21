@@ -1,45 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
+    <line>
+      <![CDATA[Verifying the username is present]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the password is present]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the submit button is present]]>
+    </line>
+    <line>
+      <![CDATA[Entering Michael in the username text box]]>
+    </line>
+    <line>
+      <![CDATA[Entering dkjfdjklfd in the password text box]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the username is present]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the password is present]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the submit button is present]]>
+    </line>
+    <line>
+      <![CDATA[Entering Michael in the username text box]]>
+    </line>
+    <line>
+      <![CDATA[Entering dkjfdjklfd in the password text box]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the username is present]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the password is present]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the submit button is present]]>
+    </line>
+    <line>
+      <![CDATA[Entering Michael in the username text box]]>
+    </line>
+    <line>
+      <![CDATA[Entering dkjfdjklfd in the password text box]]>
+    </line>
+    <line>
+      <![CDATA[reading the url of the page]]>
+    </line>
+    <line>
+      <![CDATA[reading the url of the page]]>
+    </line>
+    <line>
+      <![CDATA[reading the url of the page]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12696" started-at="2020-03-15T17:37:29Z" finished-at="2020-03-15T17:37:42Z">
+  <suite name="Test data for sign on test" duration-ms="36419" started-at="2020-03-21T18:13:20Z" finished-at="2020-03-21T18:13:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12696" started-at="2020-03-15T17:37:29Z" finished-at="2020-03-15T17:37:42Z">
-      <class name="com.app.Tests.newTourTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="beforeTest" is-config="true" duration-ms="7783" started-at="2020-03-15T13:37:29Z" finished-at="2020-03-15T13:37:37Z">
+    <test name="Positive testing dataset - 1" duration-ms="28934" started-at="2020-03-21T18:13:20Z" finished-at="2020-03-21T18:13:49Z">
+      <class name="com.app.Tests.signOnTestData">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.app.Tests.signOnTestData@7dc7cbad]" name="beforeTest" is-config="true" duration-ms="21070" started-at="2020-03-21T14:13:20Z" finished-at="2020-03-21T14:13:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="beforemethod" is-config="true" duration-ms="333" started-at="2020-03-15T13:37:37Z" finished-at="2020-03-15T13:37:37Z">
+        <test-method status="PASS" signature="validateWebElementPresent()[pri:1, instance:com.app.Tests.signOnTestData@7dc7cbad]" name="validateWebElementPresent" duration-ms="98" started-at="2020-03-21T14:13:41Z" finished-at="2020-03-21T14:13:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[Verifying the username is present]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the password is present]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the submit button is present]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="validateURL()[pri:1, instance:com.app.Tests.newTourTest@429bd883]" name="validateURL" duration-ms="13" started-at="2020-03-15T13:37:37Z" finished-at="2020-03-15T13:37:37Z">
+        </test-method> <!-- validateWebElementPresent -->
+        <test-method status="PASS" signature="validateSignOn(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.app.Tests.signOnTestData@7dc7cbad]" name="validateSignOn" duration-ms="6915" started-at="2020-03-21T14:13:41Z" finished-at="2020-03-21T14:13:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfasdfd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Entering Michael in the username text box]]>
+            </line>
+            <line>
+              <![CDATA[Entering dkjfdjklfd in the password text box]]>
+            </line>
+            <line>
+              <![CDATA[reading the url of the page]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- validateURL -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="beforemethod" is-config="true" duration-ms="277" started-at="2020-03-15T13:37:37Z" finished-at="2020-03-15T13:37:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="validateTitle()[pri:2, instance:com.app.Tests.newTourTest@429bd883]" name="validateTitle" duration-ms="8" started-at="2020-03-15T13:37:38Z" finished-at="2020-03-15T13:37:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="beforemethod" is-config="true" duration-ms="297" started-at="2020-03-15T13:37:38Z" finished-at="2020-03-15T13:37:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="elementDisplayed()[pri:3, instance:com.app.Tests.newTourTest@429bd883]" name="elementDisplayed" duration-ms="2187" started-at="2020-03-15T13:37:38Z" finished-at="2020-03-15T13:37:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- elementDisplayed -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.app.Tests.newTourTest@429bd883]" name="afterTest" is-config="true" duration-ms="1787" started-at="2020-03-15T13:37:40Z" finished-at="2020-03-15T13:37:42Z">
+        </test-method> <!-- validateSignOn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.app.Tests.signOnTestData@7dc7cbad]" name="afterTest" is-config="true" duration-ms="838" started-at="2020-03-21T14:13:48Z" finished-at="2020-03-21T14:13:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.app.Tests.newTourTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.app.Tests.signOnTestData -->
+    </test> <!-- Positive testing dataset - 1 -->
+    <test name="Negative Testing dataset - 2" duration-ms="35071" started-at="2020-03-21T18:13:20Z" finished-at="2020-03-21T18:13:55Z">
+      <class name="com.app.Tests.signOnTestData">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.app.Tests.signOnTestData@7f9a81e8]" name="beforeTest" is-config="true" duration-ms="21959" started-at="2020-03-21T14:13:20Z" finished-at="2020-03-21T14:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validateWebElementPresent()[pri:1, instance:com.app.Tests.signOnTestData@7f9a81e8]" name="validateWebElementPresent" duration-ms="83" started-at="2020-03-21T14:13:42Z" finished-at="2020-03-21T14:13:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying the username is present]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the password is present]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the submit button is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateWebElementPresent -->
+        <test-method status="PASS" signature="validateSignOn(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.app.Tests.signOnTestData@7f9a81e8]" name="validateSignOn" duration-ms="12262" started-at="2020-03-21T14:13:42Z" finished-at="2020-03-21T14:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfadas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Michael in the username text box]]>
+            </line>
+            <line>
+              <![CDATA[Entering dkjfdjklfd in the password text box]]>
+            </line>
+            <line>
+              <![CDATA[reading the url of the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSignOn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.app.Tests.signOnTestData@7f9a81e8]" name="afterTest" is-config="true" duration-ms="762" started-at="2020-03-21T14:13:55Z" finished-at="2020-03-21T14:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.app.Tests.signOnTestData -->
+    </test> <!-- Negative Testing dataset - 2 -->
+    <test name="Negative Testing dataset - 1" duration-ms="36419" started-at="2020-03-21T18:13:20Z" finished-at="2020-03-21T18:13:57Z">
+      <class name="com.app.Tests.signOnTestData">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.app.Tests.signOnTestData@48eff760]" name="beforeTest" is-config="true" duration-ms="22693" started-at="2020-03-21T14:13:20Z" finished-at="2020-03-21T14:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validateWebElementPresent()[pri:1, instance:com.app.Tests.signOnTestData@48eff760]" name="validateWebElementPresent" duration-ms="87" started-at="2020-03-21T14:13:43Z" finished-at="2020-03-21T14:13:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying the username is present]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the password is present]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the submit button is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateWebElementPresent -->
+        <test-method status="PASS" signature="validateSignOn(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.app.Tests.signOnTestData@48eff760]" name="validateSignOn" duration-ms="12931" started-at="2020-03-21T14:13:43Z" finished-at="2020-03-21T14:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhfjkasdsdf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Michael in the username text box]]>
+            </line>
+            <line>
+              <![CDATA[Entering dkjfdjklfd in the password text box]]>
+            </line>
+            <line>
+              <![CDATA[reading the url of the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSignOn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.app.Tests.signOnTestData@48eff760]" name="afterTest" is-config="true" duration-ms="704" started-at="2020-03-21T14:13:56Z" finished-at="2020-03-21T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.app.Tests.signOnTestData -->
+    </test> <!-- Negative Testing dataset - 1 -->
+  </suite> <!-- Test data for sign on test -->
 </testng-results>
