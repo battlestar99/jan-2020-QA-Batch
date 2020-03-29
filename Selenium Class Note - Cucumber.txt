@@ -1,0 +1,118 @@
+Good Morning 
+
+Class will start 10:15 AM 
+
+performance Testing - 
+SQL - 
+
+
+
+What is a test failur and what is code failure - what are 
+the difference betwen them 
+
+- test fail - assertions failur - defect 
+expected vs actual 
+
+
+- code fail - we could not execute the test - 
+
+
+TestNG - Traditional frameowork , Junit 
+
+TDD - test driven development 
+All the web interaction - selenium
+test framework - create report, suite, data driven testing, create
+sequence for our test 
+
+Cucumber - BDD - behaviour driven development 
+
+1. testing the behaviour of the application 
+2. to make your tests accessiible to technical and non-technical
+persons of the team 
+technical side - test script 
+
+non-techinal side - gherkin language 
+
+
+gherkin language - java/selenium
+
+feature file - non technical file written with gherkin language
+
+step definition file - technical/java file that executes the test 
+
+test runner - test suite, creating a result 
+
+cucumeber setup 
+
+1. need to have all the jar files to build path 
+2. install the cucumber eclipse plugin 
+
+
+Feature - 1 file 
+  
+scenerio - test case 
+
+
+given
+when
+then
+and 
+but 
+
+
+
+feature
+scenerio 
+background 
+
+
+
+scenerio  - successful login test
+
+Given user is on the login page - pre requirement for the test
+When user enters valid username in the username text box
+And user enter valid password in the password text box
+And user clicks the login button 
+
+Then user should be able to login 
+
+scenerio - unsuccess login test
+
+Given user in on the login page
+when user enters invalid username
+And user enters invalid password 
+And user click the login button
+Then user expects to login 
+But user will be denied to login 
+
+you can not implement one test step multiple time 
+
+Cucumber 
+
+feature - unlimited amount of features 
+stepdef package - have one java file for implementing all the steps
+page object model - where we should have all our page object model
+test runner - test suite, create reports, 
+
+
+
+exepcted and actual value
+
+assert.assertequals("expected value","actual value"); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

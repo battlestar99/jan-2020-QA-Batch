@@ -151,7 +151,8 @@ driver.finelement(By.xpath("")
 object driven frameowrk - page object model 
 
 seperating web elements from test scripts 
-Class will start 01:10 PM 
+
+
 
 
 
