@@ -1,0 +1,167 @@
+Good Morning 
+
+Class will start at 10:10 AM 
+
+Topic to discuss: 
+
+
+
+1. How to organize Automation Test scripts? 
+
+
+2. what to automate and what not? 
+
+resources, work, team's choice 
+70-80 percent works in testing are for functional testing
+
+a. validating requirements 
+b. manual testing
+
+
+10 
+1000 
+@test
+
+assert("","")
+
+local link should be present and once clicked it should navaigate to the faceboo.com/local ulr
+facebook.com/local should have a page titil "Get your local info"
+
+
+
+
+3. how to explain your work in the interview? 
+
+
+4. Responsibilities of an Automation Tester? 
+
+5. Pass/fail scenario for different type of test cases? 
+
+
+
+page object model - 
+Tools - we need use 
+
+Selenium - Automation testing library - programming library - java, python, C#, javascript, ruby
+
+Java - to write our code, test script
+
+
+goal is to automate functional testing, web-based application
+selenium - provides us the functionalities to interact with web-based application - UI, GUI 
+rest-assured - provides us the functionsl to interact with an API 
+jdbc - provides us all the functionlities to interact with a database 
+
+
+Testing Frameworks-Testing libraries - 
+Junit
+TestNG
+Cucumber 
+
+
+Funcional testing
+java
+selenium
+TestNG
+
+
+java
+selenium
+cucumber
+
+java
+rest-assured 
+
+
+assert("","")
+
+
+what to learn for interview and job, and how to learn more 
+
+interviws - 
+
+
+
+Cucumber Data driven, Cucumber Test suites, Cucumber reports/results generation
+
+
+code orgaznize 
+
+TestNG 
+
+Test scripts
+Page object model - web pages you are testing - 1 web page - one page object model
+Utilities 
+Test suites - XML files 
+
+
+
+Cucumber 
+
+features
+step def
+Test runner - suite, report generation
+page object model
+utilities 
+
+OOP - 
+
+code managment - 
+
+maven - build managment tools - for organizing your project
+Git/Github - 
+
+Jenkins - CI/CD pipeline 
+
+gherking language 
+
+given
+when
+then
+and
+but
+feature
+scenario
+background
+
+
+data driven framework 
+
+we get data from feature file 
+
+Bakcground - runs before each scenario within a feture
+1 feature - 3 scenarios 
+
+background - 
+
+hook - hook 
+
+@Before
+@After 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
