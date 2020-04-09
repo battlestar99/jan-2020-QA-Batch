@@ -2,7 +2,7 @@
 #Keywords Summary :
 
 Feature: Signup feature
-
+@regression @uat
   Scenario: validating the sign up page 
   
     Given user is on the sign up page
