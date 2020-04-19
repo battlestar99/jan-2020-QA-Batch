@@ -1,0 +1,148 @@
+Class and Object - 
+static
+global and local variables 
+This keywords 
+
+// how we can make relations between multiple classes 
+Inheritance 
+Interface - creating an outline for bunch of classes 
+abstract class - sharing common functionalities 
+
+
+
+super
+access modifiers 
+exception and error 
+
+banks - social network - car dealarship
+user uses same functionalities and attributes/properties 
+
+Object Oriented Programming 
+
+procedural programming - traditional programming - executes the instruction 
+
+
+non runnable class - 
+1. storage of functions - block of codes 
+2. prototype or design 
+
+object oriented programming  - build a new system - java, C# 
+
+class - object 
+
+class - 
+functions - what an object can do- method, 
+properties - what an object is - global variables, attributes 
+
+are totally seperated from each other 
+
+class
+object 
+static 
+constructor - constructor overloading 
+global and local variable - this 
+function overloading
+
+
+Inheritance : one class can inherit the functions and properties of other class 
+
+sub class - child class
+super class - parent class 
+
+sub class gets everything (functions, properties)  from super class, super class doesnt get anything from sub class
+
+overloading - constructor and functions - happens within the same class
+same functions or consturctor with different inputs 
+
+overriding - parent and child class has same functions - childclass object will override the parentclass
+functions
+
+
+abstract class - if you don't have to create an object of the class, you can make that class
+abstract 
+
+common functions and properties that can be shared between other classes through inheritance 
+
+abstract class 
+
+reason: 
+common functions and properties that can be shared between other classes through inheritance
+
+
+1. we can not create object of that class
+2. to use abstract class we have to create child/sub class and we can use the functions/properties
+through the sublcass object 
+
+Interface 
+
+reason : creating an outline of set of classes 
+
+1. we can not create any functions in the interface, we can only define them 
+
+2. classes can implement an interface by implementing all its functions 
+
+
+
+defining - implemeting 
+
+public void go();
+
+access modifier 
+
+Everything we are doing has to be in the same project 
+
+inside the class
+outside the class and inside the package
+outside the package 
+
+
+
+public - accessible everywhere - inside + outside of the package 
+private - is only accessible within the class
+protected - inside the package 
+no modifier - same as protected 
+
+get and set methods 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
