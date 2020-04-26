@@ -156,8 +156,19 @@ version control system - git - svn
 repository to store code - github - web repository 
 private repository 
 
+local respository -which is in our computer
+remote respositoy - which in in the web or github or bitbucket 
+
+connect the local to remote 
 
 
+git status - checking the status of your respository
+git add * - you are adding the untracked files to track 
+git commit -m "after the 13th class'
+
+git push origin master - pushing the code to the repository - when local is ahead of remote 
+
+git pull - download update from the repository - when remote is ahead of local 
 
 
 

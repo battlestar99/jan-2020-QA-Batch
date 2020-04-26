@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34" started-at="2020-04-21T01:00:43Z" finished-at="2020-04-21T01:00:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34" started-at="2020-04-21T01:00:43Z" finished-at="2020-04-21T01:00:43Z">
+      <class name="scriptsTestNG.testRun">
+        <test-method status="PASS" signature="maintest()[pri:0, instance:scriptsTestNG.testRun@3b2c72c2]" name="maintest" duration-ms="11" started-at="2020-04-20T21:00:43Z" finished-at="2020-04-20T21:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintest -->
+      </class> <!-- scriptsTestNG.testRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
