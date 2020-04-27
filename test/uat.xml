@@ -8,7 +8,7 @@
 
 <class name="scripts.codeRun"></class>
 <class name="scripts.elementCheck"></class>
-
+<class name="scripts.testRun"></class>
 
 </classes>
 

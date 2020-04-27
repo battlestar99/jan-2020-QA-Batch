@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Regression Test">
+<test name="signup testing">
+
+<classes>
+
+<class name="scripts.codeRun"></class>
+<class name="scripts.elementCheck"></class>
+
+
+</classes>
+
+
+
+
+
+</test>
+</suite>

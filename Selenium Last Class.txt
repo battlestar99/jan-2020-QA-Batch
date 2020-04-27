@@ -1,0 +1,86 @@
+Good Morning 
+
+concept - 
+what are the roles of different tools? 
+
+Technical implmentation of the concepts - 
+
+
+
+Test automation Tools
+java - programming language 
+selenium - java library for web interaction - funcional web based application testing
+TestNG - Testing library - results, suits, data driven testing - testng xml
+Cucumber - Test library - results, suits , data driven testing - data table
+when
+then
+
+code structure - 
+
+TestNG - testscipts package, page object models, utility classes, testng xml 
+
+
+Cucumber - feature, step def , test runners , page object model 
+
+java project - src 
+
+maven - ant - gradle 
+build managment
+dependecny managment 
+CI/CD pipeline - 
+
+maven project - 1 maven project - 1 github repo 
+
+central repository - jar files in your computer 
+
+
+setup maven and java home path 
+
+system variable - specifiy the jdk or maven locaion 
+path variable - speiciy jdk/bin and maven/bin location 
+
+
+
+git - version control and updating code to the repository 
+
+docker - container 
+java version 11 
+1.8 
+
+
+
+jenkins - CI/CD 
+
+1. we want to run our code from a remote server 
+2. creating continues integration and development system 
+
+local computer - local server 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

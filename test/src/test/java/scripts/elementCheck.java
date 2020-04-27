@@ -53,8 +53,8 @@ public void validateMessangerURL() throws InterruptedException {
 		
 		driver.findElement(By.linkText("Messenger")).click();
 		
-		String expectedURL = "https://www.mess.com/";
-		String actualURL= driver.getCurrentUrl();
+		String expectedURL = "test";
+		String actualURL= "test12";
 		
 		Assert.assertEquals(actualURL, expectedURL);
 		

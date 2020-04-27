@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Regression_Test">
-              <span class="suite-name border-failed">Regression Test</span>
+              <span class="suite-name border-passed">Regression Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Regression_Test" class="hide-methods failed suite-Regression_Test"> (hide)</a> <!-- hide-methods failed suite-Regression_Test -->
-                      <a href="#" panel-name="suite-Regression_Test" class="show-methods failed suite-Regression_Test"> (show)</a> <!-- show-methods failed suite-Regression_Test -->
-                    </span>
-                    <div class="method-list-content failed suite-Regression_Test">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Test" title="scripts.elementCheck" hash-for-method="validateMessangerURL">validateMessangerURL</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Regression_Test -->
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -129,6 +115,26 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Regression_Test" title="scripts.elementCheck" hash-for-method="validateElementPresent">validateElementPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Test" title="scripts.elementCheck" hash-for-method="validateMessangerURL">validateMessangerURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Test" title="scripts.testRun" hash-for-method="validateTextPresnt">validateTextPresnt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Test" title="scripts.testRun" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Test" title="scripts.testRun" hash-for-method="validateUrl">validateUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Regression_Test -->
                   </li>
                 </ul>
@@ -141,25 +147,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression_Test" class="panel Regression_Test">
-          <div class="suite-Regression_Test-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">scripts.elementCheck</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateMessangerURL">
-                  </a> <!-- validateMessangerURL -->
-                  <span class="method-name">validateMessangerURL</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.mess.com/] but found [https://www.messenger.com/]
-	at scripts.elementCheck.validateMessangerURL(elementCheck.java:59)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Test-class-failed -->
           <div class="suite-Regression_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -195,6 +182,42 @@
                   <span class="method-name">validateElementPresent</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMessangerURL">
+                  </a> <!-- validateMessangerURL -->
+                  <span class="method-name">validateMessangerURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Test-class-passed -->
+          <div class="suite-Regression_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.testRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTextPresnt">
+                  </a> <!-- validateTextPresnt -->
+                  <span class="method-name">validateTextPresnt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle">
+                  </a> <!-- validateTitle -->
+                  <span class="method-name">validateTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrl">
+                  </a> <!-- validateUrl -->
+                  <span class="method-name">validateUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Test-class-passed -->
         </div> <!-- panel Regression_Test -->
@@ -211,6 +234,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;scripts.codeRun&quot;/&gt;
       &lt;class name=&quot;scripts.elementCheck&quot;/&gt;
+      &lt;class name=&quot;scripts.testRun&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- signup testing --&gt;
 &lt;/suite&gt; &lt;!-- Regression Test --&gt;
@@ -224,7 +248,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">signup testing (2 classes)</span>
+                <span class="test-name">signup testing (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -250,23 +274,35 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateElementPresent')
 data.setCell(0, 2, 'scripts.elementCheck')
-data.setCell(0, 3, 4251);
+data.setCell(0, 3, 4348);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validateMessangerURL')
 data.setCell(1, 2, 'scripts.elementCheck')
-data.setCell(1, 3, 1769);
+data.setCell(1, 3, 2258);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'ctest')
 data.setCell(2, 2, 'scripts.codeRun')
-data.setCell(2, 3, 6);
+data.setCell(2, 3, 14);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'btest')
 data.setCell(3, 2, 'scripts.codeRun')
-data.setCell(3, 3, 1);
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateUrl')
+data.setCell(4, 2, 'scripts.testRun')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateTitle')
+data.setCell(5, 2, 'scripts.testRun')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateTextPresnt')
+data.setCell(6, 2, 'scripts.testRun')
+data.setCell(6, 3, 1);
 window.suiteTableData['Regression_Test']= { tableData: data, tableDiv: 'times-div-Regression_Test'}
 return data;
 }
@@ -304,65 +340,104 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">scripts.elementCheck</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">scripts.codeRun</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforetest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.elementCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.testRun</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">8073 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.codeRun</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod</span>
-                <span class="method-start">6895 ms</span>
+                <span class="method-start">8097 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ctest</span>
-                <span class="method-start">6895 ms</span>
+                <span class="method-start">8097 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermethod</span>
-                <span class="method-start">6903 ms</span>
+                <span class="method-start">8115 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod</span>
-                <span class="method-start">6906 ms</span>
+                <span class="method-start">8121 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">btest</span>
-                <span class="method-start">6906 ms</span>
+                <span class="method-start">8121 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermethod</span>
-                <span class="method-start">6908 ms</span>
+                <span class="method-start">8127 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.elementCheck</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateElementPresent</span>
-                <span class="method-start">6909 ms</span>
+                <span class="method-start">8128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.testRun</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateUrl</span>
+                <span class="method-start">12477 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.elementCheck</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateMessangerURL</span>
+                <span class="method-start">12481 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.testRun</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateTitle</span>
+                <span class="method-start">14741 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">validateMessangerURL</span>
-                <span class="method-start">11162 ms</span>
+                <span class="method-name">validateTextPresnt</span>
+                <span class="method-start">14744 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.elementCheck</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">12932 ms</span>
+                <span class="method-start">14746 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.codeRun</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">aftertest</span>
-                <span class="method-start">12932 ms</span>
+                <span class="method-start">14746 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.testRun</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">16152 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

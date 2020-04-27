@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Test" duration-ms="15422" started-at="2020-04-26T15:13:59Z" finished-at="2020-04-26T15:14:15Z">
+    <groups>
+    </groups>
+    <test name="signup testing" duration-ms="15422" started-at="2020-04-26T15:13:59Z" finished-at="2020-04-26T15:14:15Z">
+      <class name="scripts.codeRun">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:scripts.codeRun@2ef5e5e3]" name="beforetest" is-config="true" duration-ms="16" started-at="2020-04-26T11:13:59Z" finished-at="2020-04-26T11:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.elementCheck@36d4b5c]" name="beforeTest" is-config="true" duration-ms="8007" started-at="2020-04-26T11:13:59Z" finished-at="2020-04-26T11:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:scripts.codeRun@2ef5e5e3]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-04-26T11:14:07Z" finished-at="2020-04-26T11:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="ctest()[pri:0, instance:scripts.codeRun@2ef5e5e3]" name="ctest" duration-ms="8" started-at="2020-04-26T11:14:07Z" finished-at="2020-04-26T11:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:scripts.codeRun@2ef5e5e3]" name="aftermethod" is-config="true" duration-ms="1" started-at="2020-04-26T11:14:07Z" finished-at="2020-04-26T11:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="btest()[pri:0, instance:scripts.codeRun@2ef5e5e3]" name="btest" duration-ms="3" started-at="2020-04-26T11:14:07Z" depends-on-methods="scripts.codeRun.ctest" finished-at="2020-04-26T11:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:scripts.codeRun@2ef5e5e3]" name="beforemethod" is-config="true" duration-ms="0" started-at="2020-04-26T11:14:07Z" finished-at="2020-04-26T11:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:scripts.codeRun@2ef5e5e3]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-04-26T11:14:07Z" finished-at="2020-04-26T11:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:scripts.codeRun@2ef5e5e3]" name="aftertest" is-config="true" duration-ms="1" started-at="2020-04-26T11:14:14Z" finished-at="2020-04-26T11:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.elementCheck@36d4b5c]" name="afterTest" is-config="true" duration-ms="1010" started-at="2020-04-26T11:14:14Z" finished-at="2020-04-26T11:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- scripts.codeRun -->
+      <class name="scripts.elementCheck">
+        <test-method status="PASS" signature="validateElementPresent()[pri:1, instance:scripts.elementCheck@36d4b5c]" name="validateElementPresent" duration-ms="4306" started-at="2020-04-26T11:14:07Z" finished-at="2020-04-26T11:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateElementPresent -->
+        <test-method status="PASS" signature="validateMessangerURL()[pri:2, instance:scripts.elementCheck@36d4b5c]" name="validateMessangerURL" duration-ms="2020" started-at="2020-04-26T11:14:12Z" finished-at="2020-04-26T11:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMessangerURL -->
+      </class> <!-- scripts.elementCheck -->
+    </test> <!-- signup testing -->
+  </suite> <!-- Regression Test -->
+</testng-results>
